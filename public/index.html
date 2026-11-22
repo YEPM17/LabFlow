@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="LabFlow 福州大学实验设备预约与管理前端演示">
+<title>LabFlow · 让实验有序发生</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fzu-lake.jpg" as="image">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="home.css">
+</head>
+<body class="home-body">
+<a class="skip-link" href="#story">跳到主要内容</a>
+<div class="scroll-progress" aria-hidden="true">
+</div>
+<header class="home-header">
+<a class="home-logo" href="#top">Lab<span>Flow</span>
+<small>福大实验室管理体验版</small>
+</a>
+<nav aria-label="主导航">
+<a href="#story">理念</a>
+<a href="#equipment">设备</a>
+<a href="#process">预约流程</a>
+<a href="#campus">校园</a>
+</nav>
+<a class="header-entry" href="login.html">进入工作台 ↗</a>
+</header>
+<main id="top">
+<section class="home-hero">
+<div class="hero-image-layer" aria-hidden="true">
+</div>
+<div class="hero-vignette" aria-hidden="true">
+</div>
+<div class="hero-inner">
+<p class="hero-context">福州大学 · 实验设备管理体验版</p>
+<h1>
+<span>让实验，</span>
+<span>有序发生。</span>
+</h1>
+<p class="hero-description">为每一次探索，留出恰好的时间与空间。<br>从设备查询到预约审核，让实验准备更清晰。</p>
+<a class="hero-entry" href="login.html">进入 LabFlow ↗</a>
+</div>
+<div class="hero-bottom">
+<span>福州大学校园影像 · 摄影：FradonStar（CC BY-SA 4.0）</span>
+<a href="#story">向下探索 ↓</a>
+<span>全栈演示 · 非官方业务系统</span>
+</div>
+</section>
+<section id="story" class="story-section">
+<div class="story-index">把实验准备<br>交给清晰的流程</div>
+<div class="story-content">
+<h2>实验的价值，<br>
+<span class="text-mask">从准备开始。</span>
+</h2>
+<div class="story-bottom">
+<p>设备在哪里、何时可用、申请到了哪一步——这些问题应当有直观的答案。</p>
+<p>LabFlow 将查找、预约、审批和报修串成一条可追踪的路径。学生少等待，教师更从容。</p>
+</div>
+</div>
+</section>
+<section id="equipment" class="equipment-section">
+<div class="equipment-heading">
+<h2>每台设备，<br>都值得被妥善安排。</h2>
+<p>设备目录直接读取实验室服务器。教师在管理工作台新增、编辑或删除后，这里会同步变化。</p>
+</div>
+<div class="equipment-stage">
+<div class="equipment-visual">
+<div class="equipment-orbit orbit-one">
+</div>
+<div class="equipment-orbit orbit-two">
+</div>
+<svg class="equipment-svg" viewBox="0 0 500 360" role="img" aria-label="实验仪器线稿">
+<rect x="75" y="55" width="350" height="235" rx="18"/>
+<rect x="99" y="82" width="302" height="145" rx="7"/>
+<path d="M112 174h42l22-55 29 85 34-69 27 39h43l25-34 23 34h31M176 260h148M215 290v28h70M180 318h140"/>
+<circle cx="355" cy="260" r="10"/>
+</svg>
+<span>LAB / INVENTORY</span>
+</div>
+<div class="equipment-info">
+<div class="equipment-count">
+<span id="equipmentCurrent">01</span>
+<span> / </span>
+<span id="equipmentTotal">05</span>
+</div>
+<div id="equipmentDisplay" aria-live="polite">
+</div>
+<div class="equipment-controls">
+<button id="equipmentPrev" type="button" aria-label="上一台设备">←</button>
+<button id="equipmentNext" type="button" aria-label="下一台设备">→</button>
+</div>
+</div>
+</div>
+<div class="equipment-ticker" id="equipmentTicker" aria-label="设备目录">
+</div>
+</section>
+<section id="process" class="process-section">
+<div class="process-head">
+<p>一次完整的使用，从这里展开</p>
+<h2>预约不是一张表单。<br>它是一段有回应的流程。</h2>
+</div>
+<div class="process-scroll">
+<div class="process-sticky">
+<div class="process-steps">
+<article class="process-step active" data-step="0">
+<span>01</span>
+<h3>查询设备</h3>
+<p>按名称或实验室位置寻找所需设备。</p>
+</article>
+<article class="process-step" data-step="1">
+<span>02</span>
+<h3>确认状态</h3>
+<p>查看设备用途、位置与当前可用情况。</p>
+</article>
+<article class="process-step" data-step="2">
+<span>03</span>
+<h3>安排时间</h3>
+<p>选择日期和时段，系统检查预约冲突。</p>
+</article>
+<article class="process-step" data-step="3">
+<span>04</span>
+<h3>提交申请</h3>
+<p>申请进入待审核列表，学生可随时查看。</p>
+</article>
+<article class="process-step" data-step="4">
+<span>05</span>
+<h3>教师审核</h3>
+<p>教师通过或拒绝，状态同步到预约记录。</p>
+</article>
+</div>
+<div class="process-preview">
+<div class="preview-top">
+<span>LabFlow / 预约路径</span>
+<span id="processFraction">01 / 05</span>
+</div>
+<div class="preview-center">
+<div id="processGlyph" aria-hidden="true">01</div>
+<strong id="processTitle">找到所需设备</strong>
+<p id="processDescription">从设备名称或实验室位置开始搜索。</p>
+</div>
+<div class="preview-bottom">
+<span id="processStatus">设备目录</span>
+<span>演示流程</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="campus" class="campus-section">
+<div class="campus-photo">
+<img src="assets/fzu-campus-building.jpg" alt="福州大学校园建筑影像" width="1280" height="837" loading="lazy">
+<span>福州大学校园建筑 · 摄影：Rolf Baur（公共领域）</span>
+</div>
+<div class="campus-copy">
+<p>校园与实验精神</p>
+<h2>明德至诚，<br>博学远志。</h2>
+<p>旗山校区以山水园林式的规划连接建筑、广场与绿化。这里的每一间实验室，都是把求知变成实践的起点。</p>
+<a href="https://www.fzu.edu.cn/xxgk/xbxx.htm" target="_blank" rel="noopener noreferrer">了解福州大学校训 ↗</a>
+</div>
+</section>
+<section class="closing-section">
+<p>从这里，开始下一次实验。</p>
+<h2>把时间留给发现。</h2>
+<div class="closing-actions">
+<a href="login.html?role=student">进入学生工作台 ↗</a>
+<a href="login.html?role=teacher">进入教师工作台 ↗</a>
+</div>
+<div class="closing-foot">
+<span>LabFlow / Fuzhou University inspired concept</span>
+<span>演示数据仅保存在当前浏览器 · 非福州大学官方系统</span>
+</div>
+</section>
+</main>
+<script src="data.js">
+</script>
+<script src="home.js">
+</script>
+</body>
+</html>

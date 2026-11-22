@@ -1,0 +1,16 @@
+{
+  "name": "labflow-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LabFlow campus laboratory equipment reservation backend",
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test",
+    "seed:demo": "node scripts/seed-demo.js"
+  }
+}

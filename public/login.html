@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>福大 LabFlow · 登录工作台</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-body">
+  <div class="login-shell">
+  <section class="login-intro">
+    <div class="eyebrow">FUZHOU UNIVERSITY · CAMPUS LABS</div>
+    <div class="intro-mark">福<span>大</span> / LabFlow</div>
+    <h1>让每一次实验，<br>从容开始。</h1>
+    <p>面向福州大学教学与科研场景的实验设备预约体验。查找设备、安排时段、跟进维修，在一个清晰的工作台完成。</p>
+    <div class="intro-steps"><span>01 发现设备</span><span>02 提交预约</span><span>03 实验使用</span></div>
+    <small>旗山校区 · 实验室预约平台</small>
+  </section>
+  <div class="login-card">
+    <a class="login-showcase-link" href="index.html">返回首页 <span aria-hidden="true">↗</span></a>
+    <div class="logo">LabFlow / 进入工作台 <span>↗</span></div>
+    <h2>欢迎使用 LabFlow</h2>
+    <p>选择身份后会自动填入演示账号，也可以修改为已有账号。</p>
+    <form id="loginForm">
+    <label for="role">选择演示身份</label>
+    <select id="role" name="role">
+      <option value="student">学生 Student</option>
+      <option value="teacher">教师 Teacher</option>
+    </select>
+    <label for="username">用户名</label>
+    <input id="username" name="username" autocomplete="username" placeholder="例如：student">
+    <label for="password">密码</label>
+    <input id="password" name="password" type="password" autocomplete="current-password" placeholder="演示密码">
+    <p id="loginError" class="login-error" role="alert" hidden></p>
+    <button class="primary-btn" type="submit" id="loginButton">
+      进入工作台 <span aria-hidden="true">→</span>
+    </button>
+    </form>
+    <p class="hint login-demo-hint">演示账号<br>学生 <code>student / Student@2026</code><br>教师 <code>teacher / Teacher@2026</code><br>登录状态 30 分钟无操作后失效；预约、报修和设备数据由后端数据库持久化。</p>
+  </div>
+  </div>
+  <script src="data.js"></script>
+  <script src="login.js"></script>
+</body>
+</html>
