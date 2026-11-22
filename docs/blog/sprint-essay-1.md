@@ -52,7 +52,7 @@ Definition of Done for every sub-task: code merged through a reviewed pull reque
 
 ## 2. Burn-up chart
 
-![LabRunners Alpha sprint burn-up chart](images/burnup-sprint1.png)
+![LabRunners Alpha sprint burn-up chart](https://raw.githubusercontent.com/YEPM17/LabFlow/main/docs/blog/images/burnup-sprint1.png)
 
 | Date | Planned cumulative (SP) | Actual cumulative (SP) | Closed on that day |
 | --- | --- | --- | --- |
@@ -122,11 +122,11 @@ Captured from the build that answered `/api/health` above.
 
 | Login | Student workspace |
 | --- | --- |
-| ![Login page](images/01-login.png) | ![Student workspace](images/02-student.png) |
+| ![Login page](https://raw.githubusercontent.com/YEPM17/LabFlow/main/docs/blog/images/01-login.png) | ![Student workspace](https://raw.githubusercontent.com/YEPM17/LabFlow/main/docs/blog/images/02-student.png) |
 
 | Teacher overview | Mobile layout |
 | --- | --- |
-| ![Teacher overview](images/03-teacher.png) | ![Student workspace on mobile](images/04-student-mobile.png) |
+| ![Teacher overview](https://raw.githubusercontent.com/YEPM17/LabFlow/main/docs/blog/images/03-teacher.png) | ![Student workspace on mobile](https://raw.githubusercontent.com/YEPM17/LabFlow/main/docs/blog/images/04-student-mobile.png) |
 
 The deployed build is the same code path as the pre-sprint acceptance run, which was exercised in a headless browser at 1280, 1366, 1440 and 1920 px with no horizontal overflow on the home, student and teacher pages, and no JavaScript page errors.
 
