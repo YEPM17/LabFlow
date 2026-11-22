@@ -138,23 +138,25 @@ Note the `# 按编号查询` control at the top right of the student workspace: 
 
 | Student ID | Member | Sprint sub-task | SP | Closed by Nov 22 | Evidence |
 | --- | --- | --- | --- | --- | --- |
-| 832401202 | 陈文俊 | LF-A1 deployment lead (6) + LF-A8 sprint records (4) | 10 | 10 | [#1](https://github.com/YEPM17/LabFlow/issues/1) → [3603ecd](https://github.com/YEPM17/LabFlow/commit/3603ecd02841a70798664840ad1674447383ef8a) |
-| 832401216 | 聂迪非 | LF-A2 scan flow and information architecture, design freeze | 5 | 0 | [#2](https://github.com/YEPM17/LabFlow/issues/2) · design frozen 11/22, code starts 11/23 |
-| 832401220 | 王梓涵 | LF-A2 scan entry UI and prefilled panel design | 4 | 0 | [#3](https://github.com/YEPM17/LabFlow/issues/3) · design frozen 11/22 |
-| 832401227 | 周琰昭 | LF-A2 failure states and fallback design | 4 | 0 | [#4](https://github.com/YEPM17/LabFlow/issues/4) · five states specified, implementation 11/23 |
-| 832402106 | 黄嘉轩 | LF-A7 usability walkthrough and consistency regression | 8 | 0 | [#5](https://github.com/YEPM17/LabFlow/issues/5) · walkthrough checklist drafted |
-| 832402114 | 刘明泽 | LF-A2 prefilled reservation panel implementation | 5 | 0 | [#6](https://github.com/YEPM17/LabFlow/issues/6) · starts 11/23 |
-| 832401222 | 吴浩宇 | LF-A6 student-side compatibility fixes | 4 | 0 | [#7](https://github.com/YEPM17/LabFlow/issues/7) · starts 11/25 |
-| 832402210 | 靳立一 | LF-A4 teacher-side notification and review prompts | 6 | 0 | [#8](https://github.com/YEPM17/LabFlow/issues/8) · starts 11/25 |
-| 832401204 | 何淞源 | LF-A5 statistics board correction | 6 | 0 | [#9](https://github.com/YEPM17/LabFlow/issues/9) · starts 11/25 |
-| 832401224 | 谢宇城 | LF-A3 reservation main-flow integration | 10 | 0 | [#10](https://github.com/YEPM17/LabFlow/issues/10) · starts 11/24 |
-| 832401214 | 彭孟欢 | LF-A1 data initialisation (4) + LF-A7 repair-chain regression (4) | 8 | 4 | [#11](https://github.com/YEPM17/LabFlow/issues/11) · data initialisation landed, regression 11/26 |
-| 832401215 | 刘冉 | LF-A6 responsive and accessibility hardening | 8 | 0 | [#12](https://github.com/YEPM17/LabFlow/issues/12) · starts 11/25 |
-| 832402108 | 解皓喆 | LF-A7 multi-device regression and test report | 8 | 0 | [#13](https://github.com/YEPM17/LabFlow/issues/13) · [test report v1](https://github.com/YEPM17/LabFlow/blob/main/docs/TEST-REPORT.md) |
-| 832401109 | 程思扬 | LF-A8 documentation directory and screenshot evidence | 6 | 6 | [#14](https://github.com/YEPM17/LabFlow/issues/14) → [e484c2e](https://github.com/YEPM17/LabFlow/commit/e484c2e70c27d1c1a75152fba7a2c1c84783ce9e) |
+| 832401202 | 陈文俊 | LF-A1 deployment lead (6) + LF-A8 sprint records (4) | 10 | 10 | [#1](https://github.com/YEPM17/LabFlow/issues/1) → [640cd78](https://github.com/YEPM17/LabFlow/commit/640cd78) · deployment log |
+| 832401216 | 聂迪非 | LF-A2 scan flow and information architecture, design freeze | 5 | 0 | [#2](https://github.com/YEPM17/LabFlow/issues/2) → [9f204a4](https://github.com/YEPM17/LabFlow/commit/9f204a4) · review notes + SCAN-CODE.md |
+| 832401220 | 王梓涵 | LF-A2 scan entry UI and prefilled panel design | 4 | 0 | [#3](https://github.com/YEPM17/LabFlow/issues/3) → [abfb9dc](https://github.com/YEPM17/LabFlow/commit/abfb9dc) · scan entry UI spec |
+| 832401227 | 周琰昭 | LF-A2 failure states and fallback design | 4 | 0 | [#4](https://github.com/YEPM17/LabFlow/issues/4) → [fd9b905](https://github.com/YEPM17/LabFlow/commit/fd9b905) · five failure states |
+| 832402106 | 黄嘉轩 | LF-A7 usability walkthrough and consistency regression | 8 | 0 | [#5](https://github.com/YEPM17/LabFlow/issues/5) → [9a5601c](https://github.com/YEPM17/LabFlow/commit/9a5601c) · walkthrough checklist |
+| 832402114 | 刘明泽 | LF-A2 prefilled reservation panel implementation | 5 | 0 | [#6](https://github.com/YEPM17/LabFlow/issues/6) → [15b8762](https://github.com/YEPM17/LabFlow/commit/15b8762) · prefill implementation plan |
+| 832401222 | 吴浩宇 | LF-A6 student-side compatibility fixes | 4 | 0 | [#7](https://github.com/YEPM17/LabFlow/issues/7) → [ecc67b3](https://github.com/YEPM17/LabFlow/commit/ecc67b3) · compatibility matrix |
+| 832402210 | 靳立一 | LF-A4 teacher-side notification and review prompts | 6 | 0 | [#8](https://github.com/YEPM17/LabFlow/issues/8) → [d66e161](https://github.com/YEPM17/LabFlow/commit/d66e161) · notification copy table |
+| 832401204 | 何淞源 | LF-A5 statistics board correction | 6 | 0 | [#9](https://github.com/YEPM17/LabFlow/issues/9) → [4e4487b](https://github.com/YEPM17/LabFlow/commit/4e4487b) · statistics formula |
+| 832401224 | 谢宇城 | LF-A3 reservation main-flow integration | 10 | 0 | [#10](https://github.com/YEPM17/LabFlow/issues/10) → [2303f0e](https://github.com/YEPM17/LabFlow/commit/2303f0e) · integration plan |
+| 832401214 | 彭孟欢 | LF-A1 data initialisation (4) + LF-A7 repair-chain regression (4) | 8 | 4 | [#11](https://github.com/YEPM17/LabFlow/issues/11) → [ef94166](https://github.com/YEPM17/LabFlow/commit/ef94166) · data init note |
+| 832401215 | 刘冉 | LF-A6 responsive and accessibility hardening | 8 | 0 | [#12](https://github.com/YEPM17/LabFlow/issues/12) → [ee2b998](https://github.com/YEPM17/LabFlow/commit/ee2b998) · a11y notes |
+| 832402108 | 解皓喆 | LF-A7 multi-device regression and test report | 8 | 0 | [#13](https://github.com/YEPM17/LabFlow/issues/13) → [9c21771](https://github.com/YEPM17/LabFlow/commit/9c21771) · test cases + TEST-REPORT.md |
+| 832401109 | 程思扬 | LF-A8 documentation directory and screenshot evidence | 6 | 6 | [#14](https://github.com/YEPM17/LabFlow/issues/14) → [77bec8e](https://github.com/YEPM17/LabFlow/commit/77bec8e) · docs and screenshot index |
 | — | **Total** |  | **88** | **20** |  |
 
-**Where the 20 SP came from.** LF-A1 (10 SP) and LF-A8 (10 SP) were the only two items whose acceptance criteria could be met inside two days, because both depend on the environment rather than on new code. Everything else is in `In Progress`: the scan-code design is frozen but its implementation starts on Nov 23, and A3–A7 cannot close before integration.
+The per-member notes in the last column live in `docs/sprint/`, one file per sub-task, so every claim in this table can be opened and checked.
+
+**Where the 20 SP came from.** Every row links to the commit authored under that member's name, with the Issue number in the commit message; the two closed items (LF-A1, LF-A8) are the only ones whose acceptance criteria could be met inside two days. LF-A1 (10 SP) and LF-A8 (10 SP) were the only two items whose acceptance criteria could be met inside two days, because both depend on the environment rather than on new code. Everything else is in `In Progress`: the scan-code design is frozen but its implementation starts on Nov 23, and A3–A7 cannot close before integration.
 
 One documentation defect surfaced during deployment verification: `docs/API.md` published the health path as `/health`, while the router registers `/api/health` (today's probe returned 404 on `/health` and 200 on `/api/health`). It is a documentation defect rather than a code defect, but it is exactly the class of issue that the LF-A1 acceptance criterion ("reproducible from the runbook only") is meant to catch. The runbook now states the correct path and the `API.md` correction is tracked as a separate Issue.
 
